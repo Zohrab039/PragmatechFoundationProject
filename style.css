@@ -1,4 +1,26 @@
-.box {
-    width: 200px;
-    height: 1000px;
+h1 {
+    color: black;
+    text-align: center;
+    background: white;
+    
+}
+div{
+    color: red;
+    background: black;
+    width: 65px;
+}
+.box{
+    color: blue;
+    background: yellow;
+    width: 48px;
+}
+.box1{
+    color: brown;
+    background: white;
+    width: 58px;
+}
+.box2{
+    color: cyan;
+    background: green;
+    width: 73px;
 }
