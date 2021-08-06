@@ -12,15 +12,20 @@ div{
 .box{
     color: blue;
     background: yellow;
-    width: 48px;
+    width: 97px;
 }
 .box1{
     color: brown;
     background: white;
-    width: 58px;
+    width: 107px;
 }
 .box2{
     color: cyan;
     background: green;
-    width: 73px;
+    width: 122px;
+}
+.box3{
+    color: blueviolet;
+    width: 172px;
+    background: cyan;
 }
