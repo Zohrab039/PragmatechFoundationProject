@@ -140,3 +140,19 @@ body{
     text-align:start;
     margin: auto;
 }
+.sub{
+    margin: 10px 0px;
+    margin-left: 102px;
+}
+#box5{
+    border: 1px solid black;
+}
+#box5 form{
+    width: 50%;
+}
+.sm-box{
+    border: 1px solid black;
+    width: 50%;
+    float: right;
+    height: 20px;
+}
