@@ -1,0 +1,118 @@
+#box1{
+    border: 1px solid black;
+    width: 100%;
+    height: 160px;
+    display: inline-block;
+    justify-content: space-around;
+}
+.logo{  
+    display: flex;
+    margin: 40px 0px;
+    float: left;
+    border: 1px solid black;
+    background-color: rgb(200, 200, 200);
+}
+.logo img{
+    height: 100px;
+}
+.search-items{
+    border: 1px solid black;
+    width: 230px;
+    height: 35px;
+    float: right;
+    display: flex;
+    margin: 110px 0px;
+}
+#box2{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.page-items{
+    border: 1px solid black;
+    width: 60px;
+    height: 50px;
+    margin: 0px 30px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    background-color: rgb(200, 200, 200);
+}
+#box3{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+    background-color: rgb(200, 200, 200);
+}
+.img{
+    justify-content: flex-start;
+    display: flex;
+    width: 75%;
+    height: 200px;
+}
+.three{
+    display: flex;
+    width: 25%;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 200, 200);
+}
+#box4{
+    width: 70%;
+    border: 1px solid black;
+    height: 500px;
+}
+.text{
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(200, 200, 200);
+}
+body{
+    margin: 0px;
+}
+.text h1{
+    margin: 0;
+    text-align: start;
+    background-color: gray;
+    color: blanchedalmond
+}
+.text p{
+    color: blanchedalmond;
+}
+.lorem{
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 20px 0;     
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: gray;
+    color: blanchedalmond;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    border: 1px solid black;
+    width: 70/4%;
+    height: 200px;
+}
