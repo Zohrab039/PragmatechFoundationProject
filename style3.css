@@ -14,6 +14,7 @@
 }
 .logo img{
     height: 100px;
+    width: 200px;
 }
 .search-items{
     border: 1px solid black;
@@ -40,6 +41,7 @@
     align-self: center;
     display: flex;
     background-color: rgb(200, 200, 200);
+    cursor: pointer;
 }
 #box3{
     border: 1px solid black;
@@ -71,7 +73,7 @@
     background-color: rgb(200, 200, 200);
 }
 #box4{
-    width: 70%;
+    width: 69%;
     border: 1px solid black;
     height: 500px;
 }
@@ -113,6 +115,28 @@ body{
 }
 .image img{
     border: 1px solid black;
-    width: 70/4%;
     height: 200px;
+}
+.side-bar{
+    border: 1px solid black;
+    display: block;
+    float: right;
+    height: 500px;
+    width: 29%;
+}
+.side-bar h1{
+    border: 1px solid black;
+    margin: 0;
+    background-color: gray;
+    color: blanchedalmond;
+}
+.image2{
+    display: flex;
+    border: 1px solid black;
+    height: 100px;
+    margin: 30px 0px;
+}
+.image2 p{
+    text-align:start;
+    margin: auto;
 }
