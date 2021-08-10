@@ -1,0 +1,31 @@
+h1 {
+    color: black;
+    text-align: center;
+    background: white;
+    
+}
+div{
+    color: red;
+    background: black;
+    width: 65px;
+}
+.box{
+    color: blue;
+    background: yellow;
+    width: 97px;
+}
+.box1{
+    color: brown;
+    background: white;
+    width: 107px;
+}
+.box2{
+    color: cyan;
+    background: green;
+    width: 122px;
+}
+.box3{
+    color: blueviolet;
+    width: 172px;
+    background: cyan;
+}

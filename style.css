@@ -1,31 +1,30 @@
-h1 {
-    color: black;
+body {
+    margin: 0px;
+}
+
+.esasQutu {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    gap: 10px;
+}
+
+.daxiliQutu {
+    background: blue;
+    border: 1px solid red;
+    color: white;
+    font-size: 30px;
     text-align: center;
-    background: white;
-    
 }
-div{
-    color: red;
-    background: black;
-    width: 65px;
-}
-.box{
-    color: blue;
-    background: yellow;
-    width: 97px;
-}
-.box1{
-    color: brown;
-    background: white;
-    width: 107px;
-}
-.box2{
-    color: cyan;
-    background: green;
-    width: 122px;
-}
-.box3{
-    color: blueviolet;
-    width: 172px;
-    background: cyan;
+
+.daxiliQutu:nth-child(1) {
+    background: purple;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1/3;
+    grid-row: 1/3; */
+    grid-area: 1/1/3/4;
 }
