@@ -77,6 +77,8 @@ body{
 .social{
     margin: 15px 0px;
     display: flex;
+    line-height: 1.4;
+    cursor: pointer;
 }
 .phone span{
     margin-left: 43px;
@@ -108,4 +110,50 @@ ul li a{
 }
 ul li :hover{
     border-bottom: 1px solid blue;
+}
+.span-icons{
+    margin: 0 40px;
+}
+.span-icons2{
+    margin: 0 -20px;
+}
+.span-icons3{
+    margin: 0 40px;
+}
+.span-icons:hover{
+    color: blue;
+}
+.span-icons2:hover{
+    color: blue;
+}
+.span-icons3:hover{
+    color: blue;
+}
+.contact-me2{
+  border: 1px solid blue;
+  height: 50px;
+  width: 170px;
+  border-radius: 3px;
+  text-align: center;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.contact-me3{
+    border: 1px solid gray;
+    height: 50px;
+    width: 170px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 3px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 30px;
+    color: black;
+    background: #efefef;
 }
