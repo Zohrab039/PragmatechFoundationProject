@@ -1,0 +1,111 @@
+p, body, h1, h2, h3, h4, h5, h6, ul{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.border{
+    border-bottom: 1px solid lightgray;
+    display: flex; 
+}
+.contact{
+    /*cursor: pointer;*/
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.noqte{
+    display: flex;
+    color: blue;
+}
+.zohrab{
+    display: flex;
+}
+.hello:hover{
+    color: blue;
+    border: 1px;
+}
+.skills:hover{
+    color: blue;
+}
+.experience:hover{
+    color: blue;
+}
+.education:hover{
+    color: blue;
+}
+.portfolio:hover{
+    color: blue;
+}
+.feedback:hover{
+    color: blue;
+}
+.contact-me:hover{
+    color: blue;
+}
+.noqte-2{
+    display: flex;
+    color: blue;
+}
+.zohrab-2{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#box1{
+    margin-top: 20px;
+    padding: 10px 0px;
+   /* border: 1px solid;*/
+}
+.col-6 p{
+    opacity: 0.8;
+}
+.phone{
+    margin: 15px 0px;
+    display: flex;
+}
+.email{
+    margin: 15px 0px;
+    display: flex;
+}
+.address{
+    margin: 15px 0px;
+    display: flex;
+}
+.social{
+    margin: 15px 0px;
+    display: flex;
+}
+.phone span{
+    margin-left: 43px;
+    margin-top: -2px;
+}
+.email span{
+    margin-left: 48px;
+    margin-top: -3px;
+}
+.address span{
+    margin-left: 29px;
+    margin-top: -2px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+.contact :hover{
+    color: blue;
+}
+ul li :hover{
+    border-bottom: 1px solid blue;
+}
