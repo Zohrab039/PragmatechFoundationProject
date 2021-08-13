@@ -13,4 +13,4 @@
 
 # Tədris müddətində yazdığım məqalələr
 
-### Null
+- Null
