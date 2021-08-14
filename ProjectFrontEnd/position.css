@@ -303,3 +303,18 @@ ul li :hover{
     height: 210px;
     
 }
+.web-developer{
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 700;
+    margin-top: 43px;
+    float: right
+}
+.present{
+    font-size: 16px;
+    line-height: 1.56;
+    margin-right: -40px;
+}
+.about-row{
+    float: right;
+}
