@@ -272,3 +272,34 @@ ul li :hover{
     margin-left: 19px;
     max-height: 100%;
 }
+.border-4{
+    border-top: 1px solid lightgray;
+}
+.noqte-4{
+    color: blue;
+    display: flex;
+}
+.experience-2{
+    display: flex;
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.p-7{
+    font-size: 16px;
+    line-height: 1.56;
+    margin-left: 27px;
+    opacity: 0.7;
+}
+.zigzag-2 img{
+    max-width: 100%;
+    margin-left: 19px;
+    max-height: 100%;
+}
+.zigzag-2{
+    width: 300px;
+    height: 210px;
+    
+}
