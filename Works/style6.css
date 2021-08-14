@@ -1,0 +1,10 @@
+.text{
+    width: 700px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+.text p{
+    text-align: start;
+    margin-top: -20px;
+}
