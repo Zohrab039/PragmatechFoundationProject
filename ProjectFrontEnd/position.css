@@ -191,10 +191,15 @@ ul li :hover{
     margin-left: 30px;
 }
 .image{
-    margin-left: 30px;
+    margin-left: 200px;
     display: flex;
     margin-top: 10px;
     justify-content: right;
+    width: 300px;
+}
+.image img{
+    max-width: 100%;
+
 }
 .col-12 {
     display: flex
@@ -257,4 +262,13 @@ ul li :hover{
 .p-6{
     margin-left: 0px;
     opacity: 0.7;
+}
+.zigzag{
+    width: 300px;
+    height: 210px;
+}
+.zigzag img{
+    max-width: 100%;
+    margin-left: 19px;
+    max-height: 100%;
 }
