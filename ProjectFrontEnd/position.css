@@ -33,7 +33,7 @@ body{
     color: blue;
     border: 1px;
 }
-.skills:hover{
+/*.skills:hover{
     color: blue;
 }
 .experience:hover{
@@ -49,6 +49,9 @@ body{
     color: blue;
 }
 .contact-me:hover{
+    color: blue;
+}*/
+.contact ul li a:hover{
     color: blue;
 }
 .noqte-2{
@@ -110,7 +113,10 @@ ul li a{
     text-decoration: none;
     color: black;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 700; ;
+}
+ul li a:hover{
+    border-bottom: 1px solid blue
 }
 .contact :hover{
     color: blue;
@@ -121,6 +127,7 @@ ul li a{
 .span-icons{
     margin: 0 40px;
     text-decoration: none;
+    list-style: none;
 }
 .span-icons2{
     margin: 0 -20px;
@@ -128,6 +135,7 @@ ul li a{
 }
 .span-icons3{
     margin: 0 40px;
+    text-decoration: none;
 }
 .span-icons:hover{
     color: blue;
