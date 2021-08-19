@@ -689,3 +689,13 @@
         .btn:hover {
             box-shadow: 5px 10px 19px #0e03cf
         }
+        .copyright{
+            border: 1px solid lightgray;
+            height: 45px;
+            background: rgba(236, 236, 236, 0.397);
+        }
+        .copyright p{
+            text-align: center;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
