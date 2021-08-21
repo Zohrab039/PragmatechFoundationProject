@@ -624,6 +624,9 @@
             height: 270px;
             overflow: hidden;
         }
+        .portfolio-item span{
+            padding-left: 10px;
+        }
         
         .portfolio-item img {
             width: 100%;
@@ -650,7 +653,7 @@
             margin-bottom: 15px;
             margin-top: 30px;
             border-radius: 1px;
-            border: 2px solid transparent;
+            
             padding: 0 20px;
             transition: all .3s ease;
         }
@@ -661,7 +664,7 @@
             height: 117px;
             margin-top: 30px;
             border-radius: 1px;
-            border: 2px solid transparent;
+            
             padding: 15px 20px;
             transition: all .3s ease;
         }
