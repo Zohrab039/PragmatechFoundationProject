@@ -1,22 +1,31 @@
 //alert("This is my Portfolio");
 //var learning
+/* 
 var age = (18)
-var firstName = "Zohrab";
-var lastName = "Semedzade"
-var online = true;
-var whatever = null;
-age = age + 1;
-var fullName = firstName +" "+ lastName
+    var firstName = "Zohrab";
+    var lastName = "Semedzade";
+    var online = true;
+    var whatever = null;
+    age = age + 1;
+    var fullName = firstName +" "+ lastName 
+*/
 
-whatever = "Code"
+/*
+    whatever = "Code" 
+*/
 //console learning
-console.log("This is my Portfolio");
-console.log("My age is" ,age)
-console.log("My name is" ,fullName)
-console.log("Are you online?:",online)
-console.log(whatever)
+/* 
+    console.log("This is my Portfolio");
+    console.log("My age is" ,age)
+    console.log("My name is" ,fullName)
+    console.log("Are you online?:",online)
+    console.log(whatever) 
+*/
 
-var friends = 10;
+/* 
+    var friends = 10; 
+*/
+
 
 /*  math
     friends = friends + 1;
@@ -36,4 +45,7 @@ var friends = 10;
     friends **=2 
 */
 
-console.log(friends)
+/*
+    let a="salam";
+    console.log(typeof a); 
+*/
