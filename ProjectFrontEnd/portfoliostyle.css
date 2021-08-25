@@ -156,7 +156,7 @@
     color: #555;
 }
 .site-btn{
-    background-color: #6d56c1;
+    background-color: #a1ac13;
     height: 50px;
     border-radius: 25px;
     font-size: 14px;
@@ -182,4 +182,18 @@ a{
     height: 14px;
     margin-top: -5px;
     margin-right: 5px;
+}
+.resume{
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    opacity: 0.8;
+    margin-top: 45px;
+}
+.resume-main p{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #555;
 }
