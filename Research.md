@@ -18,3 +18,17 @@ function googleTranslateElementInit() {
  1. Vetically(şaquli)
  2. Horizontally(üfüqi)
  3. Dropdown menu(açılan menyu)
+
+
+## JavaScript statements
+1. Break: "Break" ifadəsi yazıldığı sətrdən alt sətrə sıçrayır.
+2. Continue: "Continue" ifadəsi döngədə müəyyən bir vəziyyət baş verərsə döngədə həmin döngəni pozur və döngədəki növbəti təkrar ilə davam edir.
+3. Arguments: Məlumat tapdım başa düşmədim.
+4. Await: Məlumat tapdım başa düşmədim.
+5. Case: Məlumat tapmadım.
+6. Catch: Try ... catch ifadəsi cəhd etmək üçün bir bəyanat blokunu işarələyir və bir istisna atılacağı təqdirdə cavabı bildirir. Try ifadəsi bir və ya daha çox ifadəyə aid olan bir cəhd blokundan ibarətdir. {} həmişə tək ifadələr üçün istifadə edilməlidir. Ən azı bir tutma bloku və ya nəhayət blok olmalıdır. Try ifadəsinin 3 forması var:
+try...catch
+try...finally
+try...catch...finally
+7. Class: Class deklarasiyası prototipə əsaslanan mirasdan istifadə edərək müəyyən adla yeni bir class yaradır.
+8. Const: "Let" kimi "const"da da dəyişənlər olur və constda dəyişənlər yenidən təyin edilə bilməz.
