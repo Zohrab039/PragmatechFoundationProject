@@ -37,7 +37,7 @@ try...catch...finally
 1.  a=5 və var a=5 yazmağın fərqi nədir.
 a=5 console bölməsinə yazdıqda 5 rəqəmi olduğu kimi görünür amma var a=5 yazdıqda undefined yazılır.
 2.  a=5; b=6 yenidən təyin etmeden ele edin ki c.log(a) yazanda 6 digersinde 5 cixsin.
-Bunun etmək üçün a=5 b=6 yazırıq sonra isə console.log(b, a) yazanda console-da 6 5 olaraq görünür.
+Bunun etmək üçün a=5 b=6 yazırıq sonra isə a=b console.log(a) yazanda console-da 5 dəyişir 6 olaraq görünür.
 3. "Salam"<"salam" in nəticəsi nedir ve niye?
 "Salam"<"salam"-ın nəticəsi true-dir.
 4. İmplicit və explicit type conversion nədir? Fərqlərini izah edin.
