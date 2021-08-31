@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    background-color: black;
+}
+.clock{
+    width: 650px;
+    height: 600px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: blue;
+}

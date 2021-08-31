@@ -1,0 +1,15 @@
+.cool-link::after{
+    content: "";
+    display: block; 
+    width: 5%; 
+    padding-top: 20px; 
+    border-bottom: 1px solid black; 
+    transition: .5s;
+}
+.cool-link:hover::after{
+    width: 15%; /* This will be the new width of your border when on hover */
+}
+.cool-link{
+    list-style: none;
+    text-decoration: none;
+}
