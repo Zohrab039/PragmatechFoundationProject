@@ -5,6 +5,7 @@ if (yil == "zohrab") {
 }else{
     alert( 'ncncncnc bir mene bax gorum kimem men!' );
 } */
+
 /* let ad = prompt('Zohrab ne vaxt dunyaya gelib?')
 
 if (ad < 2003){
@@ -28,7 +29,7 @@ while(a <= 6){
     ++a;
 } */
 function Foo() {
-    return a+b+c+d+e+f;
+    return (3 + 4 + 12 + 45 + 67 + 78);
 }
-/* let cavab = Foo(3, 4, 12, 45, 67, 78) */
-alert (cavab)
+let cavab = Foo(3, 4, 12, 45, 67, 78);
+alert (cavab);
