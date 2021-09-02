@@ -28,8 +28,62 @@ while(a <= 6){
     alert(a);
     ++a;
 } */
-function Foo() {
+
+/* function Foo() {
     return (3 + 4 + 12 + 45 + 67 + 78);
 }
-let cavab = Foo(3, 4, 12, 45, 67, 78);
-alert (cavab);
+let cavab = Foo (3, 4, 12, 45, 67, 78);
+console.log(cavab); */
+
+/* let ededler=[23,45,67,78,21,89,34] */
+
+//tek ededleri ekrana cap etmek
+//cut ededleri ekrana cap etmek
+//ededlerin cemini ekrana cap etmek
+
+/* for(let i=0; i<7; i++){
+    if(ededler[i]%2==1)
+    console.log(`${ededler[i]}) ededi tek ededdir`)
+} */
+/* toplam=0 */
+//Teklerin toplanmasi
+/* for(let i=0;i<7;i++){
+    if(ededler[i]%2===1){
+    toplam=toplam+ededler[i]
+}
+}
+console.log(toplam) */
+//Cutlerin toplanmasi
+/* for(let i=0; i<7; i++){
+    if(ededler[i]%2===0){
+        toplam=toplam+ededler[i]
+    }
+}
+console.log(toplam) */
+
+//ededler massivində 3-ə bölünüb 5-ə bölünməyən ədədləri ekrana çap edin
+//rəqəmlərinin cəmi 6 dan böyük olan ədədləri göstərin
+//massivin cut yerdə duran elementlərinin cəmini tapın
+//son rəqəmi 7 olan ədədləri tapın
+
+let ededler=[12,45,23,67,89,1,17,90];
+
+/* for(let i=0; i<8; i++){
+    if(ededler[i]%3==0){
+        console.log(ededler[i])
+    }
+} */
+/* for(let i=0; i<8; i++){
+    if(ededler[i]%5!==0){
+        console.log(ededler[i])
+    }
+} */
+//son rəqəmi 7 olanlar
+/* for(let i=0; i<8; i++){
+    if(ededler[i]%10===7){
+        console.log(ededler[i])
+    }
+} */
+//cutl yerde duranların toplanması
+/* let cutler = ededler.filter(x => x % 2 === 0);
+console.log(cutler); */
