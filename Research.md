@@ -44,4 +44,29 @@ Bunun etmək üçün a=5 b=6 yazırıq sonra isə a=b console.log(a) yazanda con
 İmplicit conversion vəziyyətində məcburiyyət gizlin edilir və JS səhv bir məlumat tipini işləyərkən onu doğru məlumat tipinə çevirməyə çalışır.
 Explicit conversion vəziyyətində developer tərəfindən kodlar açıq şəkildə göstərilir.
 5. ++a və a++ fərqləri nedir?
-++a yazdıqda 1+a-dan başlayır amma a++ yazdıqda 0+a-dan başlayır
+++a yazdıqda 1+a-dan başlayır amma a++ yazdıqda 0+a-dan başlayır.
+
+## Week05-Day05 HomeWork
+1. Hal hazırda istifadə olunan proqramlaşdırma paradigmaları hansılardır?
+Hal hazırda istifadə olunan proqramlaşdırma paradigmaları: imperative, procedural, object-oriented, declarative, functional, logic, mathematical, reactive-dir.
+- Hər paradigma haqqında bir neçə paraqraflıq dəyərləndirmə yazın
+Imperative- proqramçının maşına vəziyyətini necə dəyişdirməyi göstərir.
+Procedural- təlimatları prosedurlara qruplaşdırır.
+Object-oriented- təlimatları işlədikləri dövlətin bir hissəsi ilə qruplaşdırır.
+Declarative- proqramçının yalnız istədiyi nəticənin xüsusiyyətlərini elan etdiyini açıqlayır amma onun necə hesablanacağını yox.
+Functional- istənilən nəticənin bir sıra funksiya tətbiqlərinin dəyəri olaraq elan edir.
+Logic- istədiyiniz nəticənin faktlar və qaydalar sistemi haqqında bir suala cavab olaraq elan edir.
+Mathematical- istədiyiniz nəticənin optimallaşdırma probleminin həlli olaraq elan edir.
+Reactive- məlumat axınları və dəyişikliyin yayılması ilə istənilən nəticənin elan edir.
+2. Obyekt yönümlü proqramlaşdırma paradigması haqqında ümümi izahat yazın.
+Kompüter proqramları və tətbiqləri yaratmaq üçün proqramlaşdırma paradiqmasıdır.
+- Niyə belə bir paradigmaya ehtiyac duyulub?
+Bir proqram proqramını, obyektlərin fərdi nümunələrini yaratmaq üçün istifadə olunan sadə, təkrar istifadə edilə bilən kod planlarına (ümumiyyətlə siniflər adlanır) qurmaq üçün istifadə olunur.
+- Ilk kimlər tərəfindən ortaya atılıb?
+- OOP prinsipləri nələrdir? Araşdıraraq izah etməyə cəhd edin.
+enkapsulyasiya (encapsulation),
+varislik (inheritance),
+polimorfizm (polymorphism),
+abstraksiyası (abstraction),
+obyektlər arasında informasiya axınının təşkili (sending messages / message sending),
+təkrar istifadə oluna bilərlik (reusability).
