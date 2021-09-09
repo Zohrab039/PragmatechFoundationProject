@@ -66,10 +66,10 @@ console.log(toplam) */
 //massivin cut yerdə duran elementlərinin cəmini tapın
 //son rəqəmi 7 olan ədədləri tapın
 
-let ededler=[12,45,23,67,89,1,17,90];
+/* let ededler=[12,45,23,67,89,1,17,90];
 
-/* for(let i=0; i<8; i++){
-    if(ededler[i]%3==0){
+for(let i=0; i<8; i++){
+    if(ededler[i]%3==0 && ededler[i]%5!=0){
         console.log(ededler[i])
     }
 } */
@@ -80,10 +80,31 @@ let ededler=[12,45,23,67,89,1,17,90];
 } */
 //son rəqəmi 7 olanlar
 /* for(let i=0; i<8; i++){
-    if(ededler[i]%10===7){
+    if(ededler[i]%10===7){7
         console.log(ededler[i])
     }
 } */
 //cutl yerde duranların toplanması
 /* let cutler = ededler.filter(x => x % 2 === 0);
 console.log(cutler); */
+//padisah meselesi
+/* let i=(0.024*(2**64))/1000
+console.log(i) */
+/* obj={
+    first:function(){
+        console.log('First')
+        return obj
+    },
+    second:function(){
+        console.log('Second')
+        return obj
+    },
+    third:function(){
+        console.log('Third')
+        return obj
+    }
+}
+
+obj.first().second().third()
+
+obj.second().first() */
