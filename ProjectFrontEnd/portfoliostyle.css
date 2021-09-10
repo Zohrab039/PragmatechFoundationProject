@@ -1,5 +1,5 @@
 #box1{
-    background: #a1ac13;
+    background: #c4b106;
     height: 515px;
 }
 /* .container .nav-bar{
@@ -143,8 +143,8 @@
 .icons ul li a:hover{
     color: blanchedalmond;
 }
-.hi-main{
-    
+#box2{
+    background-color: black;
 }
 .hi{
     opacity: 0.9;
@@ -161,7 +161,7 @@
     color: #555;
 }
 .site-btn{
-    background-color: #a1ac13;
+    background-color: #c4b106;
     height: 50px;
     border-radius: 25px;
     font-size: 14px;
@@ -206,6 +206,10 @@ a{
     font-weight: 400;
     line-height: 30px;
     color: #555;
+}
+.resume_-main span{
+    font-style: italic;
+    font-weight: 800;
 }
 .education-main{
     font-family: Roboto Mono,monospace;
