@@ -222,3 +222,37 @@ a{
     margin-top: 40px;
     margin-bottom: 60px;
 }
+.education-tree-border{
+    border-left: 3px solid #c4b106;
+    height: 415px;
+    position: absolute
+}
+.education-tree-circle{
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #c4b106;
+    height: 15px;
+    width: 15px;
+    left: 91px;
+    background: white;
+}
+.education-tree-circle-2{
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #c4b106;
+    height: 15px;
+    width: 15px;
+    left: 91px;
+    background: white;
+    margin-top: 10%
+}
+.education-tree-circle-3{
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #c4b106;
+    height: 15px;
+    width: 15px;
+    left: 91px;
+    background: white;
+    margin-top: 25%
+}
