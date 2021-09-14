@@ -1,0 +1,27 @@
+head, body{
+    margin: 0;
+    padding: 0;
+}
+.main-image {
+    width: 1200px;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+}
+.image{
+    width: 200px;
+    height: 300px;
+    border: 1px solid gray;
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    cursor: pointer;
+}
+button{
+    width: 20px;
+    height: 10px;
+    background: gray;
+    margin: 50px 20px;
+    border-radius: 4px;
+}
