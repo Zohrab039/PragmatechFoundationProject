@@ -1,0 +1,21 @@
+.box {
+    height: 200px;
+    background-color: lightgray;
+    width: 400px;
+    margin: 0px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 0px;
+    transition: all .3s ease;
+}
+
+.slider-frame {
+    overflow: hidden;
+    width: 1200px;
+}
