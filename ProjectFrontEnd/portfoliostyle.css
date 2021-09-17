@@ -351,6 +351,7 @@ a{
 }
 .get-in-touch{
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 .main-phone2, .main-email2, .main-address2{
     list-style: none;
@@ -399,7 +400,7 @@ a{
     font-size: 16px;
     line-height: 24px;
     font-family: Roboto Mono,monospace;
-    margin-top: 80px
+    margin-top: 110px
 }
 .col input{
     width: 70%;
@@ -412,6 +413,10 @@ a{
     line-height: 24px;
     font-family: Roboto Mono,monospace;
     margin-left:-25px;
+    outline: none;
+}
+.col input::placeholder, .col2 input::placeholder, .col3 textarea::placeholder{
+    color: black;
 }
 .col2 input{
     width: 70%;
@@ -426,6 +431,7 @@ a{
     margin-left:-25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    outline: none;
 }
 .col2 input:hover, .col input:hover{
     box-shadow: 0px 2px 24px 3px rgba(0,0,0,1) inset;
@@ -438,7 +444,44 @@ a{
     background-color: transparent;
     border-radius: 3px;
     border: 1px solid black;
-    color: #fff;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto Mono,monospace;
+    outline: none;
+    /* text-decoration: black; */
+}
+.col3 textarea:hover{
+    box-shadow: 2px 2px 60px 3px rgba(0,0,0,1) inset;
+    transition: all .3s ease;
+}
+.form-btn{
+    background-color: #c4b106;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    min-width: 170px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    overflow: hidden;
+    width: 65%;
+    border: none!important;
+    box-shadow: 0 1px 29px rgb(0 0 0 / 16%);
+    position: relative;
+    margin-top: 30px;
+    color: black;
+    margin-bottom: 50px;
+}
+.form-btn:hover{
+    color: #c4b106;
+    background-color: black;
+    transition: all .3s ease;
+}
+.footer{
     font-size: 16px;
     line-height: 24px;
     font-family: Roboto Mono,monospace;
