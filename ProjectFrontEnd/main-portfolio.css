@@ -12,7 +12,9 @@ body {
 nav {
     background: #c4b106;
 }
-
+.navbar-collapse{
+    justify-content: flex-end;
+}
 .navbar-nav {
     margin-left: 100px;
 }
@@ -79,7 +81,7 @@ a:hover {
     display: flex;
     font-size: 30px;
     margin-left: 50px;
-    
+
 }
 
 .fab {
@@ -175,7 +177,7 @@ a:hover {
 }
 
 .item {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin: 10px;
     width: 350px;
     height: 500px;
@@ -210,10 +212,11 @@ a:hover {
     color: #555;
     margin-left: 10px;
 }
-.testimonials{
-    margin-top: 10% ;
+
+.testimonials {
+    margin-top: 10%;
     margin-left: auto;
- 
+
 }
 
 .testimonial {
@@ -241,6 +244,7 @@ a:hover {
     color: rgb(117, 117, 117);
     font-family: Roboto, sans-serif;
     margin-left: 10px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -355,7 +359,8 @@ input {
 
     .texts h2,
     h4,
-    li,a {
+    li,
+    a {
         font-size: 15px;
         color: black;
     }
@@ -370,7 +375,8 @@ input {
         margin-left: auto;
         margin-right: auto;
     }
-    .col input{
+
+    .col input {
         margin-left: 1000px;
     }
 }
@@ -477,30 +483,3 @@ input {
     margin-left: -60px;
 }
 
-.typewriter{
-    width: 400px;
-}
-.typewriter h1,h2 {
-    color:#555;
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end) infinite,
-      blink-caret .5s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 90% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-  }
