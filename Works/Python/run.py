@@ -181,13 +181,36 @@ while True:
         for book1 in books:
             book1.showBook() """
 
-def cem(c):
+""" def cem(c):
     sum = 0
     for cemi in str(c): 
       sum += int(cemi)      
     return sum
    
 c = 917
-print(cem(c))
+print(cem(c)) """
 
+
+""" a = [8,2,3,0,7]
+total = sum(a)
+print(total)
+ """
+
+""" def multiply(multiple) :
+    multi = 1
+    for x in multiple:
+         multi = multi * x
+    return multi
+a = [8,2,3,1,7]
+
+print(multiply) """
+
+""" a=[1,2,3,4,5,6,7,8,9,10]
+for num in a:
+    if num % 2==0:
+        print(num)
+
+for num in a:
+    if num%2==1:
+        print(num) """
 
