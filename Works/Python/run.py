@@ -190,11 +190,13 @@ while True:
 c = 917
 print(cem(c)) """
 
-
+#task
 """ a = [8,2,3,0,7]
 total = sum(a)
 print(total)
- """
+"""
+
+#task
 
 """ def multiply(multiple) :
     multi = 1
@@ -204,6 +206,8 @@ print(total)
 a = [8,2,3,1,7]
 
 print(multiply) """
+
+#task
 
 """ a=[1,2,3,4,5,6,7,8,9,10]
 for num in a:
