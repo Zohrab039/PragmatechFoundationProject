@@ -12,9 +12,11 @@ body {
 nav {
     background: #c4b106;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     justify-content: flex-end;
 }
+
 .navbar-nav {
     margin-left: 100px;
 }
@@ -482,4 +484,3 @@ input {
     margin-bottom: 20px;
     margin-left: -60px;
 }
-
