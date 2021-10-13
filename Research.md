@@ -70,3 +70,64 @@ polimorfizm (polymorphism),
 abstraksiyası (abstraction),
 obyektlər arasında informasiya axınının təşkili (sending messages / message sending),
 təkrar istifadə oluna bilərlik (reusability).
+
+//Javascript və Python dillərinin data tipləri arasındakı oxşar və fərqli cəhətlər nədir?
+
+JS-in 8 ədəd basic data types-ı vardır:
+
+  -String: Mətn məlumatlarını təmsil edir.
+  -Number: Tam ədədləri təmsil edir.
+  -BigInt: Ixtiyari dəqiqliyi olan tam ədədləri təmsil edir.
+  -Boolean: 2 dəyəri vardır: doğru(true) və səhv(false).
+  -undefined: Dəyişəninin işə salınmadığı bir məlumat növüdür.
+  -null: Boşluq və ya sıfır dəyərini göstərir.
+  -Symbol: Nümunələri unikal və dəyişməz olan məlumat növüdür.
+  -Object: Məlumatların toplanmasının əsas dəyər cütləridir.
+
+
+Pythonun 7 ədəd data types-ı vardır:
+  -Text Type:	Example: x = "Hello World"
+  -Numeric Types:	
+    int: Example: x = 20
+    float: Example: x = 20.5	
+    complex: Example: x = 1j	
+  -Sequence Types:
+    list: Example: x = ["apple", "banana", "cherry"]
+    tuple: Example: x = ("apple", "banana", "cherry")
+    range: Example: x = range(6)
+  -Mapping Type:
+    dict: Example: x = {"name" : "John", "age" : 36}
+  -Set Types:
+    set: Example: x = {"apple", "banana", "cherry"}
+    frozenset: Example: x = frozenset({"apple", "banana", "cherry"})
+  -Boolean Type:
+    bool: Example: x = True(False)
+  -Binary Types:
+    bytes: Example: x = b"Hello"
+    bytearray: Example: x = bytearray(5)
+    memoryview: Example: x = memoryview(bytes(5))	
+
+Python və JavaScript -də Məlumat Növləri və Dəyərləri:
+(Fərqli cəhətlər)
+  Numeric Data Types
+    Python, elmi məqsədlər üçün dəqiq hesablamalar aparmağımıza kömək edəcək üç ədəd növə malikdir. Bu numeric tipinə daxildir:
+    int (tam ədədlər), float (üzən nöqtə ədədləri) və complex. Hər birinin öz xüsusiyyətləri, xarakteristikaları və tətbiqləri var.
+    Bunun əksinə olaraq, JavaScript -in yalnız iki ədəd numeric tipi var: Number və BigInt. İntegers və floating-point numbers Number tip sayılır.
+
+  "None" və "Null"
+    Python'da, dəyişənin proqramın müəyyən bir nöqtəsində bir dəyəri olmadığını göstərmək üçün istifadə etdiyimiz None adlı xüsusi bir dəyər var.
+    JS'də isə buna bərabər dəyər olaraq Null vardır "hər hansı bir obyekt dəyərinin qəsdən yoxluğunu ifadə edir"
+
+  Undefinied
+    JavaScript -də, bir ilkin dəyər təyin etmədən bir dəyişəni elan edərkən avtomatik olaraq təyin olunan xüsusi bir dəyərimiz var. Example:
+      var x;
+      undefined
+    =============
+      x;
+      undefined
+    Burada x dəyişəninin dəyəri qeyri-müəyyəndir.
+
+    Python -da, dəyişənə ilkin dəyər təyin etməlisiniz. İlkin dəyər olmadan elan edə bilmərik.
+    Tip: Bir dəyərin olmadığını göstərmək üçün Python -da bir dəyişənin başlanğıc dəyəri olaraq None təyin edə bilərsiniz.
+
+(Oxşar cəhətlər)
