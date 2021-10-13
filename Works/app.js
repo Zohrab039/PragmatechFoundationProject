@@ -26,7 +26,7 @@ b=6;
 cem=a+b;
 console.log(cem); */
 
-let a;
+/* let a;
 a=5;
 console.log(a)
 a=4;
@@ -36,4 +36,13 @@ b=-1;
 b=34;
 let sum;
 sum=a*b
-console.log(sum)
+console.log(sum) */
+
+// variables
+// data types
+// operators
+// type conversion
+// functions
+// data structures
+// conditions
+// loops
