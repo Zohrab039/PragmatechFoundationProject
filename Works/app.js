@@ -86,7 +86,7 @@ console.log(a) */
 //Task #1 done
 
 //Task #2 start
-/* let a = 1298;
+/*let a = 1298;
 let sum = 0;
 while (a > 0) {
     let son = a % 10;
@@ -106,21 +106,35 @@ function odd(str){
 //Task #3 not done
 
 //Task #4 start
-let username= prompt("What is your name?");
+/* let username= prompt("What is your name?");
 for(let i=1; i<11; i++){
     console.log(username)
-}
+} */
 //Task #4 done
 
 //Task #5 start
-let enterAge=prompt("What is your age? ");
-if(enterAge<=30){
+/* let enterAge=prompt("What is your age? ");
+if(enterAge<30&&enterAge>1){
     console.log(enterAge*enterAge)
-}/* else if(enterAge<40){
+} *//* else if(enterAge<40){
 
-} */else if(enterAge>100)(enterAge<0);{
+} *//* else(enterAge>101)(enterAge<0);{
     console.log('The information you entered is incorrect')
+} */
+
+//Task #1 start
+/* let ekran=prompt('1 və ya 2 daxil edin')
+for(let i=1; i<101; i++){
+    console.log(sum)
 }
+let sum=Number(prompt()) */
+//Task #1 not done
+
+//Task #2 start
+/* let istifadeci=prompt('ekrana 2 duymesini basn: ')
+if istifadeci() */
+//Task #2 not done
+
 
 
 
