@@ -71,15 +71,23 @@ abstraksiyası (abstraction),
 obyektlər arasında informasiya axınının təşkili (sending messages / message sending),
 təkrar istifadə oluna bilərlik (reusability).
 
+
+
+
+
+
+
+
+
 //Javascript və Python dillərinin data tipləri arasındakı oxşar və fərqli cəhətlər nədir?
 
 JS-in 8 ədəd basic data types-ı vardır:
 
-  -String: Mətn məlumatlarını təmsil edir.
-  -Number: Tam ədədləri təmsil edir.
+  -String: Mətn məlumatlarını təmsil edir. let a= "hello"
+  -Number: Tam ədədləri təmsil edir. let a= 10
   -BigInt: Ixtiyari dəqiqliyi olan tam ədədləri təmsil edir.
   -Boolean: 2 dəyəri vardır: doğru(true) və səhv(false).
-  -undefined: Dəyişəninin işə salınmadığı bir məlumat növüdür.
+  -undefined: Dəyişəninin işə salınmadığı bir məlumat növüdür. let a; console.log(a); -->undefined
   -null: Boşluq və ya sıfır dəyərini göstərir.
   -Symbol: Nümunələri unikal və dəyişməz olan məlumat növüdür.
   -Object: Məlumatların toplanmasının əsas dəyər cütləridir.
@@ -88,15 +96,15 @@ JS-in 8 ədəd basic data types-ı vardır:
 Pythonun 7 ədəd data types-ı vardır:
   -Text Type:	Example: x = "Hello World"
   -Numeric Types:	
-    int: Example: x = 20
-    float: Example: x = 20.5	
-    complex: Example: x = 1j	
+    int: Example: x = 10
+    float: Example: x = 10.1	
+    complex: Example: x = 1a	
   -Sequence Types:
     list: Example: x = ["apple", "banana", "cherry"]
     tuple: Example: x = ("apple", "banana", "cherry")
     range: Example: x = range(6)
   -Mapping Type:
-    dict: Example: x = {"name" : "John", "age" : 36}
+    dict: Example: x = {"name" : "Zohrab", "age" : 18}
   -Set Types:
     set: Example: x = {"apple", "banana", "cherry"}
     frozenset: Example: x = frozenset({"apple", "banana", "cherry"})
@@ -104,8 +112,8 @@ Pythonun 7 ədəd data types-ı vardır:
     bool: Example: x = True(False)
   -Binary Types:
     bytes: Example: x = b"Hello"
-    bytearray: Example: x = bytearray(5)
-    memoryview: Example: x = memoryview(bytes(5))	
+    bytearray: Example: x = bytearray(3)
+    memoryview: Example: x = memoryview(bytes(3))	
 
 Python və JavaScript -də Məlumat Növləri və Dəyərləri:
 (Fərqli cəhətlər)
@@ -130,4 +138,7 @@ Python və JavaScript -də Məlumat Növləri və Dəyərləri:
     Python -da, dəyişənə ilkin dəyər təyin etməlisiniz. İlkin dəyər olmadan elan edə bilmərik.
     Tip: Bir dəyərin olmadığını göstərmək üçün Python -da bir dəyişənin başlanğıc dəyəri olaraq None təyin edə bilərsiniz.
 
-(Oxşar cəhətlər)
+JS operators questions for teacher:
+  what is '===' operator
+  what is '!==' operator
+  what is 
