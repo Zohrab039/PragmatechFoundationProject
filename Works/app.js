@@ -135,6 +135,25 @@ let sum=Number(prompt()) */
 if istifadeci() */
 //Task #2 not done
 
+let nums=[1,3,4,7,8,9,12,45,23]
+
+function sum(){
+    let cem=0
+    for(let i=0;i<nums.length;i++){
+        cem+=nums[i]
+    }
+    return cem;
+}
+console.log(sum())
+
+function odds(){
+    for(let i=0;i<nums.length;i++){
+        if(nums[i]%2==1){
+            console.log(nums[i])
+        }
+    }
+}
+odds()
 
 
 

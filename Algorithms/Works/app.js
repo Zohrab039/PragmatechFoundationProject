@@ -108,3 +108,4 @@ console.log(i) */
 obj.first().second().third()
 
 obj.second().first() */
+
