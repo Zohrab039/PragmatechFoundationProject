@@ -116,9 +116,11 @@ for(let i=1; i<11; i++){
 /* let enterAge=prompt("What is your age? ");
 if(enterAge<30&&enterAge>1){
     console.log(enterAge*enterAge)
-} *//* else if(enterAge<40){
+} */
+/* else if(enterAge<40){
 
-} *//* else(enterAge>101)(enterAge<0);{
+} */
+/* else(enterAge>101)(enterAge<0);{
     console.log('The information you entered is incorrect')
 } */
 
@@ -135,7 +137,7 @@ let sum=Number(prompt()) */
 if istifadeci() */
 //Task #2 not done
 
-let nums=[1,3,4,7,8,9,12,45,23]
+/* let nums=[1,3,4,7,8,9,12,45,23]
 
 function sum(){
     let cem=0
@@ -153,11 +155,55 @@ function odds(){
         }
     }
 }
-odds()
+odds() */
+
+/* let obj = {
+    first: function () {
+        console.log('First')
+        return this;
+    },
+    second: function () {
+        console.log('Second')
+        return this;
+    },
+    third: function () {
+        console.log('Third')
+        return this;
+    }
+}
+obj.first().second().third() */
 
 
+/* console.log(Foo())
 
+let a;
 
+function Foo() {
+    return a;
+} */
 
+/* function Foo(){
+    let sum=0;
+for(let i=0;i<arguments.length; i++){
+    sum+=arguments[i]
+}
+return sum
+}
+Foo(1,2,6,8,9,12)
+ */
+/* function Foo(obj){
+    for(let key in obj){
+        console.log(key,obj[key])
+    }
+}
+Foo({
+    name:'heci',
+    surname:'memmedeli'
+}
+) */
 
+let arr=[1,3,4,6,7,2,3,78]
 
+function Foo(){
+    
+}
